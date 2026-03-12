@@ -6,9 +6,9 @@ namespace POO
     {
         static void Main(string[] args)
         {
-            contaBancaria contaBancaria = new contaBancaria();
-            contaBancaria.Depositar(-100);
-            contaBancaria.SaldoAtual();
+            Gato gato = new Gato();
+            gato.Falar();
+
         }
     }
 }
